@@ -1,0 +1,54 @@
+:root{
+    --primary-color:#FAEBD7;
+   
+    --color-white:black;
+
+    
+
+   
+}
+
+
+#navbar{
+    background-color: var(--primary-color);
+   
+
+    }
+    #navbar .navbar-brand,
+    #navbar .nav-link{
+        color:var(--color-white);
+    }
+
+.navbar-nav{
+    margin:30px;
+   color:var(--text-color);
+}
+
+.carousel-item{
+    height:600px;
+
+}
+
+.card-img ,.card-img-top{
+  height:320px;
+}
+
+.btn{
+border-radius :100px;
+
+}
+#contact{
+    background-color:var(--primary-color);
+
+    color:black;
+}
+
+#contact .btn{
+    color:var(--primary-color);
+    font-weight:700;
+
+
+}
+.container{
+    display;block;
+}
